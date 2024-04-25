@@ -7,7 +7,7 @@ import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
 import SelfImprovementOutlinedIcon from '@mui/icons-material/SelfImprovementOutlined';
 
-export const logo = 'https://github.com/avadhutp49/components/blob/main/logo.png?raw=true';
+export const logo = 'https://github.com/avadhutp49/videoApp/blob/main/src/components/logo.png?raw=true';
 
 export const categories = [
   { name: 'Trending in Tech', icon: <HomeIcon />, },
