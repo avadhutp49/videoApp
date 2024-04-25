@@ -1,9 +1,11 @@
 
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
-import SchoolIcon from '@mui/icons-material/School';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import SelfImprovementOutlinedIcon from '@mui/icons-material/SelfImprovementOutlined';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
@@ -13,14 +15,14 @@ export const categories = [
   { name: 'C++ Programming', icon: <CodeIcon />, },
   { name: 'Java', icon: <CodeIcon />, },
   { name: 'Python', icon: <CodeIcon />, },
-  { name: 'HTML', icon: <CodeIcon />, },
-  { name: 'CSS', icon: <CodeIcon />, },
-  { name: 'JavaScript', icon: <CodeIcon />, },
+  { name: 'HTML', icon: <HtmlIcon fontSize="large" />, },
+  { name: 'CSS', icon: <CssIcon fontSize="large" />, },
+  { name: 'JavaScript', icon: <JavascriptIcon fontSize="large"/>, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'C# Programming', icon: <SchoolIcon />, },
-  { name: 'Meditation', icon: <FitnessCenterIcon />, },
+  { name: 'C# Programming', icon: <CodeIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Meditation', icon: <SelfImprovementOutlinedIcon fontSize="large"/>, },
 
 ];
 
