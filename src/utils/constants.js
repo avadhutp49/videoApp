@@ -7,7 +7,7 @@ import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
 import SelfImprovementOutlinedIcon from '@mui/icons-material/SelfImprovementOutlined';
 
-export const logo = 'https://github.com/avadhutp49/videoApp/blob/main/src/components/logo.png?raw=true';
+export const logo = 'https://github.com/avadhutp49/components/blob/main/logo.png?raw=true';
 
 export const categories = [
   { name: 'Trending in Tech', icon: <HomeIcon />, },
@@ -18,8 +18,8 @@ export const categories = [
   { name: 'HTML', icon: <HtmlIcon fontSize="large" />, },
   { name: 'CSS', icon: <CssIcon fontSize="large" />, },
   { name: 'JavaScript', icon: <JavascriptIcon fontSize="large"/>, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'ReactJS', icon: <JavascriptIcon fontSize="large"/>, },
+  { name: 'NextJS', icon: <JavascriptIcon fontSize="large"/>, },
   { name: 'C# Programming', icon: <CodeIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
   { name: 'Meditation', icon: <SelfImprovementOutlinedIcon fontSize="large"/>, },

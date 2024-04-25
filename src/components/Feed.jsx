@@ -20,7 +20,7 @@ const Feed = () => {
       <Box sx={{ height: { sx: "auto", md: "92vh" }, borderRight: "1px solid #3d3d3d", px: { sx: 0, md: 2 } }}>
         <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         
-        <Typography variant="body2" sx={{ mt: 1.5, color: "#fff" }}>
+        <Typography variant="body2" sx={{ mt: 1.5, color: "#fff", textAlign: "center" }}>
           Copyright © 2024 {' '}
           <Link href="https://www.linkedin.com/in/avadhutp49/" target="_blank" rel="noopener noreferrer">
             avadhutp49

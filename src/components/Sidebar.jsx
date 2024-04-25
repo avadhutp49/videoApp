@@ -1,6 +1,5 @@
 import React from "react";
 import { Stack } from "@mui/material";
-
 import { categories } from "../utils/constants";
 
 const Categories = ({ selectedCategory, setSelectedCategory }) => (
@@ -22,7 +21,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
         }}
         key={category.name}
       >
-        <span style={{ color: category.name === selectedCategory ? "white" : "orange", marginRight: "15px" }}>
+        <span style={{ color: category.name === selectedCategory ? "white" : "orange", marginRight: "30px" }}>
           {category.icon}
         </span>
         <span style={{ opacity: category.name === selectedCategory ? "1" : "0.8" }}>
